@@ -2,6 +2,9 @@
 Collection of Notes, Tutorials, Videos we used to study for the exam
 
 ## Access Systems and Obtaining Support
+### VIM
+### SSH
+### Support & Red Hat Insights
 ## Manage Files from the Command Line
 ## Manage Local Users and Groups
 ## Control Access to Files
