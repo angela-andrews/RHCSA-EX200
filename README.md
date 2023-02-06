@@ -2,7 +2,7 @@
 Collection of Notes, Tutorials, Videos we used to study for the exam
 
 ## Access Systems and Obtaining Support
-### VIM
+### [VIM](Access Systems and Obtaining Support/vim.md)
 ### SSH
 ### Support & Red Hat Insights
 ## Manage Files from the Command Line
