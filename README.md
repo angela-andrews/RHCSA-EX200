@@ -2,11 +2,14 @@
 Collection of Notes, Tutorials, Videos we used to study for the exam
 
 ## Access Systems and Obtaining Support
-### [VIM](Access/vim.md)
-### [SSH](Access/ssh.mdssh.md)
-### [Support](Access/support.md)
-### [Red Hat Insights](Access/insights.mdinsights.md)
+### [VIM](access/vim.md)
+### [SSH](access/ssh.mdssh.md)
+### [Support](access/support.md)
+### [Red Hat Insights](access/insights.md)
 ## Manage Files from the Command Line
+### [FileSystem](commandline/filesystem.md)
+### [Links](commandline/links.md)
+### [Shell Expansion](commandline/shellexpansion.md)
 ## Manage Local Users and Groups
 ## Control Access to Files
 ## Manage SELinux Security
