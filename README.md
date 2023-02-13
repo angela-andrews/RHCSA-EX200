@@ -11,6 +11,11 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Links](commandline/links.md)
 ### [Shell Expansion](commandline/shellexpansion.md)
 ## Manage Local Users and Groups
+### [Users and Groups](users_groups/usersgroups.md)
+### [Superuser Access](users_groups/superuser.md)
+### [Manage Local Users](users_groups/manage_users.md)
+### [Manage local Groups](users_groups/manage_groups.md)
+### [Manage Passwords](users_groups/passwords.md)
 ## Control Access to Files
 ## Manage SELinux Security
 ## Tune System Performance
