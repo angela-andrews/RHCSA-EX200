@@ -12,5 +12,5 @@ $  dnf install insights-client
 
 Register client with Insights
 ```
-$ inights-client --register
+$ insights-client --register
 ```
