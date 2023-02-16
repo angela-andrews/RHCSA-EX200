@@ -29,3 +29,6 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ## Access Network-Attached Storage
 ## Manage Network Security
 ## Run Containers
+
+### Cool tips
+- [esc] + . on the command line returns the last command you ran

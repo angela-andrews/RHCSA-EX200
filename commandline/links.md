@@ -6,7 +6,7 @@ Files are identified by inodes (index nodes). Inodes keep track of everything ab
 - date/time
 - path to data blocks that contain the file data
 
-They are filesystems specific(xfs,ext4,etc).
+They are filesystem specific(xfs,ext4,etc).
 
 File Allocation Table (table that keeps track of the files on a disk)
 - filename
