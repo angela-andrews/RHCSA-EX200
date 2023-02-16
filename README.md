@@ -17,6 +17,8 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Manage local Groups](users_groups/manage_groups.md)
 ### [Manage Passwords](users_groups/passwords.md)
 ## Control Access to Files
+### [File Permissions](/FileAccess/filepermissions.md)
+### [Default Permissions](/FileAccess/defaultperms.md)
 ## Manage SELinux Security
 ## Tune System Performance
 ## Schedule Future Tasks
