@@ -30,6 +30,12 @@ groupadd -g 40000 developers
 ```
 groupmod -n developers devgroup
 ```
+## Remove user from group
+- gpasswd : administer /etc/group and /etc/gshadow
+
+```
+gpasswd -d latavia destinyschild
+```
 
 ## Deleting Groups
 - groupdel : delete a group
