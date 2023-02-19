@@ -52,3 +52,35 @@ chmod 1777 dropbox
 chmod o+t dropbox
 ```
 ## Default File Permissions
+
+Directories have an initial permission of 777
+Files have an initial permission of 666
+The umask (file creation mask) defines the default mode of newly created files and directories. It clears bits from the mode to create the _actual_ permission of the file/directory upon creation. 
+
+The shell start up scripts set the default umask. Depending on the UID, the umask will be 002 if the account UID is over 200. If not, the umask is 002 (like for root)
+
+### Check the current umask
+```
+umask
+```
+
+## Calculating umask
+The umask takes bits off of the initial permissions. Each symbolic permission has a number associated with it:
+- r = 4
+- w = 2
+- x = 1
+
+The umask will take bits away.
+
+![Umask on directories](/images/umask-dir.PNG)
+![Umask on file](/images/umask-file.PNG)
+
+## Files that set default umask 
+- /etc/bashrc
+- /etc/profile
+
+Users can set their own umask in 
+- ~/.bashrc
+- ~/.bash_profile
+
+
