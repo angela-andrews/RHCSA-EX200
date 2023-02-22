@@ -32,7 +32,15 @@ semange fcontext -l
 ### Scenario
 I'm attempting to create a non-default directory to serve up my website
 ```
-sudo mkdir /webserver
+- dnf install httpd -y
+- vim /etc/httpd/conf/httpd.conf  <change DocumentRoot
+- cp /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf.bak <comment out all lines
+- echo "<h1>Hello World</h1> > /webserver/index.html
+- systemctl enable --now httpd
+- firewall-cmd --add-service httpd
+- semanage fcontext -a -t httpd_sys_context_t '/webserver(/.*)?'
+- restorecon -RFv /webserver
+```
 
 
 
@@ -53,16 +61,9 @@ sudo mkdir /webserver
 
 :star2: Always remember to use _restorecon_ -Rv after _semanage fcontext_
 
-## Steps for installing apache, using a non-default directory as the document root and setting the context.
 
-- dnf install httpd -y
-- vim /etc/httpd/conf/httpd.conf  <change DocumentRoot
-- cp /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf.bak <comment out all lines
-- echo "<h1>Hello World</h1> > /webserver/index.html
-- systemctl enable --now httpd
-- firewall-cmd --add-service httpd
-- semanage fcontext -a -t httpd_sys_context_t '/webserver(/.*)?'
-- restorecon -RFv /webserver
+
+
 
 
 
