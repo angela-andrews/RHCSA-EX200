@@ -19,3 +19,5 @@ getsebool <boolean>
 ```
 semanage boolean -l -c
 ```
+
+
