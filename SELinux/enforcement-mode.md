@@ -29,7 +29,7 @@ grubby --update-kernel ALL --args selinux=0
 
 To re-enable it:
 ```
-grubby --update-kernel ALL --remove-args selinux=
+grubby --update-kernel ALL --remove-args selinux
 ```
 
 ## SELinux modes
