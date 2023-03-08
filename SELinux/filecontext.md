@@ -32,9 +32,10 @@ semange fcontext -l
 ### Scenario
 I'm attempting to create a non-default directory to serve up my website
 ```
+- mkdir ~/webserver
 - dnf install httpd -y
-- vim /etc/httpd/conf/httpd.conf  <change DocumentRoot
-- cp /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf.bak <comment out all lines
+- vim /etc/httpd/conf/httpd.conf  :arrow_left:_change DocumentRoot_
+- cp /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf.bak :arrow_left:_comment out all lines_
 - echo "<h1>Hello World</h1> > /webserver/index.html
 - systemctl enable --now httpd
 - firewall-cmd --add-service httpd

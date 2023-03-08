@@ -14,15 +14,22 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Users and Groups](users_groups/usersgroups.md)
 ### [Superuser Access](users_groups/superuser.md)
 ### [Manage Local Users](users_groups/manage_users.md)
-### [Manage local Groups](users_groups/manage_groups.md)
+### [Manage Local Groups](users_groups/manage_groups.md)
 ### [Manage Passwords](users_groups/passwords.md)
 ## Control Access to Files
 ### [File Permissions](/FileAccess/filepermissions.md)
 ### [Default Permissions](/FileAccess/defaultperms.md)
 ## Manage SELinux Security
+### [File Context](/SELinux/filecontext.md)
+### [Enforcement Mode](/SELinux/enforcement-mode.md)
+### [Booleans](/SELinux/booleans.md)
+### [Selinux Troubleshooting](/SELinux/selinux-troubleshooting.md)
 ## Tune System Performance
 ## Schedule Future Tasks
 ##  Install and Update Software Packages
+### [Registering Systems](/Packages/register.md)
+### [Install and Update Systems](/Packages/install-update.md)
+### [Enable Repos](/Packages/repos.md)
 ## Manage Basic Storage
 ## Manage Storage Stack
 ## Control Services and Boot Process
