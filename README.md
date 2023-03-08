@@ -21,7 +21,7 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Default Permissions](/FileAccess/defaultperms.md)
 ## Manage SELinux Security
 ### [File Context](/SELinux/filecontext.md)
-### [Enforcement Mode)](/SELinux/enforcement-mode.md)
+### [Enforcement Mode](/SELinux/enforcement-mode.md)
 ### [Booleans](/SELinux/booleans.md)
 ### [Selinux Troubleshooting](/SELinux/selinux-troubleshooting.md)
 ## Tune System Performance
