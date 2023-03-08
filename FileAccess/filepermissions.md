@@ -44,7 +44,7 @@ chown  admin:admin /data/containerfiles
 chown riri myfile123
 ```
 
-
+![Ownership](/images/ownership.png)
 
 
 

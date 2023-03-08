@@ -11,7 +11,7 @@ To be sure you have the tools, install these packages
 - selinux-policy-doc : provides selinux policy man pages
 
 ```
-dnf install setroubleshoot-server policycoreutils-python-utils elinux-policy-doc -y
+dnf install setroubleshoot-server policycoreutils-python-utils selinux-policy-doc -y
 ```
 
 ## SELinux Deny Messages

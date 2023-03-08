@@ -20,9 +20,16 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [File Permissions](/FileAccess/filepermissions.md)
 ### [Default Permissions](/FileAccess/defaultperms.md)
 ## Manage SELinux Security
+### [File Context](/SELinux/filecontext.md)
+### [Enforcement Mode)](/SELinux/enforcement-mode.md)
+### [Booleans](/SELinux/booleans.md)
+### [Selinux Troubleshooting](/SELinux/selinux-troubleshooting.md)
 ## Tune System Performance
 ## Schedule Future Tasks
 ##  Install and Update Software Packages
+### [Registering Systems](/Packages/register.md)
+### [Install and Update Systems](/Packages/install-update.md)
+### [Enable Repos](/Packages/repos.md)
 ## Manage Basic Storage
 ## Manage Storage Stack
 ## Control Services and Boot Process

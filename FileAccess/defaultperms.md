@@ -1,5 +1,21 @@
 # Default Permissions
 - Default permissions are the ones set on any newly created files and directories. 
+ 
+ ## Basic File Permissions
+ - Basic file permissions are based on what user owns it, what group owns it and what permissions everyone else has to the file.
+ - User, Group, Other is how basic file permissions are assigned.
+ - There are 3 levels of permissions for files:
+    - Read = 4
+    - Write = 2
+    - Execute = 1
+ - These numbers make up the octal permissions of the file and they differ based on if it's being applied to a file or directory.
+
+ | Permissions | On Files | On Directories| 
+|-------------|-------------|-------------|
+| Read| Open file & view contents | List directory contents | 
+| Write| Modify file contents | Create/delete files/diretories |
+| Execute | Run a program/script | change directory (cd) |
+
 
 - Special permissions can be applied to files and directories to add an additional type of permission that's much more granular that regular permissions.
 
@@ -78,6 +94,7 @@ The umask will take bits away.
 ## Files that set default umask 
 - /etc/bashrc
 - /etc/profile
+- /etc/profiles.d/local-mask.sh
 
 Users can set their own umask in 
 - ~/.bashrc
