@@ -38,7 +38,7 @@ findmnt -sh
 ```
 ## Mount a file system to a directory (temporary mount)
 - Create a directory for your mount
-- Mount the device to the mount directory 
+- Mount the partitioned and formatted device to the mount directory 
 - Confirm your mount was successful
 
 ```
@@ -48,6 +48,51 @@ mount -v | grep project
 ```
 
 ## Mount a file system to a directory persistently
+- Obtain the UUID of the file system with lsblk -fp
+- Create a directory for your mount
+- Mount the partitioned and formatted device to the mount directory via /etc/fstab
+    - Add the UUID
+    - Mount point
+    - file system type
+    - mount options (usually just defaults)
+    - 0 for dump
+    - 0 for fsck
+- Run _findmnt --verify_ to catch any errors
+- Run _mount -av_ to mount 
+- Reboot to test that the mount is persistent
+
+:trophy: Cheat Code: To get JUST the UUID and redirect it to /etc/fstab
+```
+blkid -s UUID -o value /dev/nvme0n1p2 >> /etc/fstab
+```
+
+```
+lslbk -fp
+mkdir /project
+vim /etc/fstab
+findmnt --verify
+mount -av
+reboot
+mount | grep project
+```
+
+## Unmount
+Unmount a file system. You can't unmount it if it's use.
+```
+umount /project
+```
+
+
+## Find Open Files
+If you attempt to unmount a file system and you get an error, run lsof to see what files are in use or get out of the directory the file system is mounted to.
+```
+lsof /project
+```
+
+Identify processes using files or sockets
+```
+fuser -m /project
+```
 
 
 

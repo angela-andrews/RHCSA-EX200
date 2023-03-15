@@ -31,7 +31,12 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Install and Update Systems](/Packages/install-update.md)
 ### [Enable Repos](/Packages/repos.md)
 ## Manage Basic Storage
+### [Mount and Unmount Storage](/Storage-Basic/mount-umount.md)
+### [Adding Partitions, File Systems and persistance](/Storage-Basic/partitions.md)
+### [Managing Swap](/Storage-Basic/swap.md)
 ## Manage Storage Stack
+### [Create/Extend Logical Volumes](/Storage-Adv/create-extend-lvm.md)
+### [Layered Storage](/)
 ## Control Services and Boot Process
 ## Analyze and Store Logs
 ## Manage Networking
