@@ -52,3 +52,25 @@ mount -av
 :heavy_exclamation_mark: blkid -s UUID -o value /dev/vg01/vdo-lv01 >> /etc/fstab
 - -s is to match tags. We’re looking for UUID (could be type and label)
 - -o is offset (could be value, device,export or full)
+
+---
+# Stratis
+
+- Stratis uses thin-provisioning so every file system will look like 1Tib.
+- It creates pools of from block devices to create file systems
+- XFS is the default file system and you don't use mkfs on stratis. It has its own commands to create the file system.
+- You can create snapshots with a stratis file system.
+- Stratis can be managed from the cli or from the web console.
+
+## Install packages for stratis
+```
+dnf install stratis-cli stratisd
+systemctl enable --now stratisd
+```
+## Creating Stratis file systems
+- Always check the current devices
+```
+lsblk -fp
+```
+
+
