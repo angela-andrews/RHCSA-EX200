@@ -2,18 +2,18 @@
 
 Systemd activates system resources, server daemons and other processes at boot and also as a system is running. 
 - Daemon: processes that run to perform a task.
- - They start at boot time
- - Daemons usually end in _d_
- - systemd daemon is the first process and is PID1. 
+    - They start at boot time
+    - Daemons usually end in _d_
+    - systemd daemon is the first process and is PID1. 
 - Service: 1 or more daemons
 - Units: Different "processes" that run. They all spawn from systemd and they have different extensions
- - path: watches file and directory changes
- - mount: controls mounts
- - timer: scheduling
- - slice: resource management (control groups). Sets resource limits
- - socket: Listens on ports. Only runs when a connection is made
- - target: Group of units. A group of related units
- - service: System services, daemons
+    - path: watches file and directory changes
+    - mount: controls mounts
+    - timer: scheduling
+    - slice: resource management (control groups). Sets resource limits
+    - socket: Listens on ports. Only runs when a connection is made
+    - target: Group of units. A group of related units
+    - service: System services, daemons
 - systemctl: the command used to manipulate units
 
 ### List out Unit types
