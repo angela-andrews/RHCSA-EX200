@@ -38,6 +38,11 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Create/Extend Logical Volumes](/Storage-Adv/create-extend-lvm.md)
 ### [Layered Storage](/)
 ## Control Services and Boot Process
+### [Systemd](/Services/systemd.md)
+### [Service](/Services/services.md)
+### [Boot Targets](/Services/boot-target.md)
+### [Reset Root Password](/Services/root-pwd.md)
+### [Repair File System](/Services/repairfs.md)
 ## Analyze and Store Logs
 ## Manage Networking
 ## Access Network-Attached Storage
