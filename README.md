@@ -44,8 +44,12 @@ Collection of Notes, Tutorials, Videos we used to study for the exam
 ### [Reset Root Password](/Services/root-pwd.md)
 ### [Repair File System](/Services/repairfs.md)
 ## Analyze and Store Logs
+### [Logging](/Logs/logging.md)
+### [Journalctl](/Logs/journalctl.md)
 ## Manage Networking
 ## Access Network-Attached Storage
+### [NFS](/network-storage/nfs.md)
+### [Autofs](/network-storage/autofs.md)
 ## Manage Network Security
 ## Run Containers
 

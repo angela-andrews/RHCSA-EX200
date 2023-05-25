@@ -2,7 +2,7 @@
 
 - Physical Devices: Actual physical(or virtual) devices that are used to store data.
 - Physical Volumes: Devices on the system that become physical volumes.
- - Can me made up of whole disks or partitions
+ - Can be made up of whole disks or partitions
 - Volume Groups: A group of 1 or more physical volumes that make up the pool from which to create logical volumes
 - Logical Volumes: The volumes that are configured to be used for file system storage or swap.
 
